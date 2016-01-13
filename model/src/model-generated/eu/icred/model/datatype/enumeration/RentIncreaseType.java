@@ -1,0 +1,7 @@
+package eu.icred.model.datatype.enumeration;
+
+
+public enum RentIncreaseType {
+
+NOT_SPECIFIED, INDEX, INDEX_SCALE, INDEX_TURNOVER, SCALE, FREE, GERMAN_CIVIL_CODE, TURNOVER, SCALE_TURNOVER, INDEX_SCALE_TURNOVER, RENT_REVIEW;
+}

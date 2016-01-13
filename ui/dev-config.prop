@@ -1,0 +1,2 @@
+registeredPlugins = org.zgif.icred.plugin.zgif.Plugin,de.irmnetwork.projects.icred.plugin.Plugin,eu.icred.external.plugin.biis.xssf.Plugin,eu.icred.plugin.shell.Plugin
+logLevel = ALL
