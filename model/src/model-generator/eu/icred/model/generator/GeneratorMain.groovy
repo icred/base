@@ -101,7 +101,7 @@ public class GeneratorMain {
 
     public static void main(String[] args) {
 
-        File xsdDir = new File(/D:\workspace\altova\zgif\zgif\xsd/)
+        File xsdDir = new File(args[0])
         File srcDir = new File(/.\src\model-generated/)
         Helper.delete(srcDir)
 
