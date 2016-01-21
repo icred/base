@@ -21,6 +21,7 @@ import eu.icred.model.datatype.enumeration.UseType;
 import eu.icred.model.node.entity.AbstractEntityNode;
 import java.lang.Boolean;
 import java.lang.Double;
+import java.lang.Integer;
 import java.lang.String;
 import java.util.Currency;
 import org.joda.time.LocalDate;
@@ -300,6 +301,14 @@ protected Area leasedArea;
   }
   public void setLeasedArea(Area leasedArea) {
     this.leasedArea = leasedArea;
+  }
+@DataField
+protected Integer leasedUnits;
+  public Integer getLeasedUnits() {
+    return this.leasedUnits;
+  }
+  public void setLeasedUnits(Integer leasedUnits) {
+    this.leasedUnits = leasedUnits;
   }
 @DataField
 protected OccupancyState occupancyState;
