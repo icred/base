@@ -6,7 +6,6 @@ import org.joda.time.LocalDateTime;
 
 import eu.icred.model.annotation.DataField;
 import eu.icred.model.annotation.Node;
-import eu.icred.model.datatype.enumeration.Subset;
 
 @Node
 public final class Meta extends AbstractNode {
@@ -14,8 +13,6 @@ public final class Meta extends AbstractNode {
     private String        format;
     @DataField
     private String        version;
-    @DataField
-    private Subset        process;
     @DataField
     private Locale        language = Locale.GERMANY;
     @DataField
@@ -49,14 +46,6 @@ public final class Meta extends AbstractNode {
 
     public void setVersion(String version) {
         this.version = version;
-    }
-
-    public Subset getProcess() {
-        return process;
-    }
-
-    public void setProcess(Subset process) {
-        this.process = process;
     }
 
     public Locale getLanguage() {
