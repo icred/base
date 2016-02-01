@@ -67,7 +67,6 @@ public final class PluginDummy implements IPlugin {
                 Container container = new Container();
                 
                 Meta meta = new Meta();
-                meta.setProcess(Subset.NONE);
                 meta.setDescription("dummy object");
                 meta.setCreator("IRCED");
                 meta.setCreated(LocalDateTime.now());
